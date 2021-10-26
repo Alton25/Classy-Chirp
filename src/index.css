@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card-container {
+    display: flex;
+    justify-content: center;
+    font-weight:bolder;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.chirp-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: 5px;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 7px 13px 30px -4px red;
+    font-weight:bolder;
+    background-color: black;
+    
+}
+body{
+    background: url("C:\Users\danie\Documents\react\react-classychrip\src\Halloween.jpg_cropX1=137&cropX2=1139&cropY1=0&cropY2=563");
+    background-size:contain;
+    color: whitesmoke;
+    font-weight:bolder;
+    
+}
+
+button{
+    color:red;
+    background-color: black;
 }
